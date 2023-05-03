@@ -1,0 +1,19 @@
+div {
+  display: flex;
+  align-items: center;
+
+  ion-range {
+      --knob-size: 32px;
+
+      fa-icon {
+          margin: 0;
+          color: var(--ion-color-primary);
+      }
+  }
+
+  span {
+      color: black;
+      font-size: large;
+      margin: 5px 10px 5px 5px;
+  }
+}

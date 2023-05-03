@@ -1,0 +1,10 @@
+vars:
+  VERSION_NAME:
+    type: string
+  VERSION_CODE:
+    type: number
+
+platforms:
+  android:
+    versionName: $VERSION_NAME
+    versionCode: $VERSION_CODE

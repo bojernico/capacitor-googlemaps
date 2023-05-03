@@ -1,0 +1,39 @@
+.menu-box {
+  margin: 5px 15px 15px 15px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+  border-radius: 3px;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.info-toast {
+  color: white;
+  font-size: 18px;
+}
+
+ion-toolbar {
+  background-color: var(--ion-color-primary);
+}
+
+ion-header {
+  background-color: var(--ion-color-primary);
+}
+
+.ios ion-toolbar {
+  padding-top: 15px;
+}
+
+.iphone-model-big-header {
+  padding-top: 35px !important;
+}
+
+ion-searchbar {
+  --background: rgba(255, 255, 255, 1) !important;
+}
